@@ -1,0 +1,19 @@
+=======Solusi dari error yang tampil saat menjalankan perintah 'git push origin master' ke github========
+
+Saat kita membuat repository di github dengan men-mencentang pilih 'readme.me', maka akan selalu menghasilkan error saat nge-push dari lokar ke repo github. Perhatikan contoh berikut :
+
+1. Bikir repo github dengan centang readme.md
+2. Ke folder lokal PC
+3. Git init
+4. Git status
+5. Git add .
+6. Git commit -m "Komit dari PC"
+7. Git remote add origin https://github.com/ocsigsampit/blablabla.git
+8. Git push origin master ---> ERROR
+
+
+Solusi :
+
+Git push -f origin master
+
+SOLVED !
